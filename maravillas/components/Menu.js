@@ -38,6 +38,46 @@ export default class HomeScreen extends React.Component {
           }>
           <Text style={styles.texto}>Coliseo</Text>
         </TouchableHighlight>
+
+        <TouchableHighlight
+          style={styles.botones}
+          onPress={() =>
+            this.props.navigation.navigate('Web', {
+              sitio: 'chichen',
+            })
+          }>
+          <Text style={styles.texto}>Chichén Itza</Text>
+        </TouchableHighlight>
+
+        <TouchableHighlight
+          style={styles.botones}
+          onPress={() =>
+            this.props.navigation.navigate('Web', {
+              sitio: 'cristo',
+            })
+          }>
+          <Text style={styles.texto}>Cristo Redentor</Text>
+        </TouchableHighlight>
+
+        <TouchableHighlight
+          style={styles.botones}
+          onPress={() =>
+            this.props.navigation.navigate('Web', {
+              sitio: 'machu',
+            })
+          }>
+          <Text style={styles.texto}>Machu Picchu</Text>
+        </TouchableHighlight>
+
+        <TouchableHighlight
+          style={styles.botones}
+          onPress={() =>
+            this.props.navigation.navigate('Web', {
+              sitio: 'petra',
+            })
+          }>
+          <Text style={styles.texto}>Petra</Text>
+        </TouchableHighlight>
       </View>
     );
   }
