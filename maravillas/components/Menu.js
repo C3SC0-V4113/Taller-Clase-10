@@ -1,7 +1,6 @@
 import React from 'react';
 
-import {StyleSheet, Text, View} from 'react-native';
-import {TouchableHighlight} from 'react-native-gesture-handler';
+import {StyleSheet, Text, View, TouchableHighlight} from 'react-native';
 
 export default class HomeScreen extends React.Component {
   render() {
